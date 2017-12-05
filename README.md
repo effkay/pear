@@ -13,7 +13,7 @@ similar.
 ```
 start_session <session_name>  # starts a session
 join_session <session_name>   # joins a session
-start_session <session_name>  # lists running sessions
+list_sessions                 # lists running sessions
 ```
 
 ## Issues
