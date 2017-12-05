@@ -8,7 +8,7 @@ Kind of like wemux ultra light.
 Clone it somewhere into your home directory:
 
 ```
-git clone git@github.com:effkay/pear.git ~/.pear
+git clone https://github.com/effkay/pear.git ~/.pear
 ```
 
 Source it in your init scripts like zshrc, bashrc or similar:
