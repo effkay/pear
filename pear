@@ -22,7 +22,7 @@ function join_session() {
 }
 
 function list_sessions() {
-  tmux -S /tmp/pear-sessions ls | awk -F '-' '{print $1}'
+  tmux -S /tmp/pear-sessions ls | awk -F ':' '{print $1}'
 }
 
 function session_file() {
