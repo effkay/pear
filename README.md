@@ -5,8 +5,17 @@ Kind of like wemux ultra light.
 
 ## Installation
 
-Clone it into your home directory and source the pear file from your bashrc or
-similar.
+Clone it somewhere into your home directory:
+
+```
+git clone git@github.com:effkay/pear.git ~/.pear
+```
+
+Source it in your init scripts like zshrc, bashrc or similar:
+
+```
+echo "source $HOMEDIR/.pear/pear" >> ~/.bashrc && reload
+```
 
 ## Usage
 
