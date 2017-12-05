@@ -5,7 +5,7 @@ function start_session() {
     return
   else
     session_name=$1
-    tmux -S $(session_file) new -t $session_name
+    tmux -S $(session_file) new -s $session_name
     chgrp users $(session_file)
   fi
 }
