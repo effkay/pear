@@ -1,5 +1,3 @@
-#!/bin/bash
-
 function start_session() {
   if [ $# -eq 0 ]
   then
