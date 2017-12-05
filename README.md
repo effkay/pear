@@ -14,7 +14,7 @@ git clone https://github.com/effkay/pear.git ~/.pear
 Source it in your init scripts like zshrc, bashrc or similar:
 
 ```
-echo "source $HOMEDIR/.pear/pear" >> ~/.bashrc && source ~/.bashrc
+echo "source ~/.pear/pear" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ## Usage
